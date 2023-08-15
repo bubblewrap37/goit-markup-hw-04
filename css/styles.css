@@ -147,17 +147,17 @@ body {
   text-align: center;
   line-height: 111.111%;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .activities {
-  padding-bottom: 94px;
+  padding-bottom: 120px;
   font-size: 0px;
 }
 .activities img {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 24px;
 }
 .activities img:last-of-type {
   margin-right: 0px;
