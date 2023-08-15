@@ -222,12 +222,14 @@ body {
 footer {
   background-color: var(--main-font-color);
   padding-bottom: 100px;
+  padding-top: 101.5px;
 }
 .footer-slogan {
   color: var(--grey-background);
   line-height: 150%;
   margin-block: 0px;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -236,7 +238,6 @@ footer {
   font-size: 18px;
   line-height: 116.667%;
   display: inline-block;
-  margin-top: 101.5px;
   margin-bottom: 17.5px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
