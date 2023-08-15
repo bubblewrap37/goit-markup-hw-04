@@ -6,21 +6,22 @@
   --white: #ffffff;
   --grey-background: #f4f4fd;
   --white-faded: rgba(255, 255, 255, 0.6);
+  --cornflower: #e7e9fc;
 }
 header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--cornflower);
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
 }
 .container {
-  width: 1200px;
+  width: 1158px;
   margin: 0 auto;
   padding-inline: 15px;
 }
 .section {
-  padding-block: 94px;
+  padding-block: 120px;
 }
 .entire-header {
   display: flex;
@@ -29,11 +30,12 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 93px;
+  gap: 76px;
 }
 .header-right {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -53,7 +55,7 @@ body {
 .main-navigation {
   font-weight: 500;
   display: inline-flex;
-  width: 254px;
+  width: 261px;
   justify-content: space-between;
   letter-spacing: 0.02em;
   line-height: 150%;
@@ -81,9 +83,6 @@ body {
 .contact-information:last-child {
   margin-right: 0px;
 }
-.container a[href="mailto:info@devstudio.com"] {
-  margin-right: 50px;
-}
 
 .contact-information:hover,
 .contact-information:focus {
@@ -91,7 +90,7 @@ body {
 }
 .container-slogan {
   background: var(--main-font-color);
-  padding-block: 200px;
+  padding-block: 188px;
 }
 .slogan {
   color: var(--white);
