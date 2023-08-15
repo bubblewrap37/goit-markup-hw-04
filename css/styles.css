@@ -165,29 +165,33 @@ body {
 
 .team-members {
   background-color: var(--grey-background);
-  padding-block: 94px;
+  padding-block: 120px;
   font-size: 0px;
 }
 .team-member {
   display: inline-block;
   background-color: var(--white);
-  margin-right: 30px;
+  margin-right: 24px;
 }
 .team-member:last-of-type {
   margin-right: 0px;
 }
 .team-member-name {
   font-weight: 500;
-  font-size: 16px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
   text-align: center;
 }
 .position-name {
   font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: var(--secondary-font-color);
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 8px;
+  margin-bottom: 32px;
   text-align: center;
 }
 
