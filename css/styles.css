@@ -181,6 +181,10 @@ body {
   display: inline-block;
   background-color: var(--white);
   margin-right: 24px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-member:last-of-type {
   margin-right: 0px;
@@ -293,6 +297,8 @@ footer {
 .filter-button:focus {
   background: var(--ocean);
   color: var(--white);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .projects {
   display: flex;
@@ -304,6 +310,12 @@ footer {
 .projects figure {
   margin: 0;
   border-bottom: 1px solid var(--cornflower);
+}
+
+.projects figure:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 figure img {
