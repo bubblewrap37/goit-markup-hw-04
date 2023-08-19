@@ -1,10 +1,10 @@
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
-  --main-font-color: #2e2f42;
-  --secondary-font-color: #434455;
+  --grey: #2e2f42;
+  --slate: #434455;
   --white: #ffffff;
-  --grey-background: #f4f4fd;
+  --cloud: #f4f4fd;
   --white-faded: rgba(255, 255, 255, 0.6);
   --cornflower: #e7e9fc;
 }
@@ -13,7 +13,7 @@ header {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--main-font-color);
+  color: var(--grey);
 }
 .container {
   width: 1158px;
@@ -62,11 +62,11 @@ body {
 }
 .main-navigation a {
   text-decoration: none;
-  color: var(--main-font-color);
+  color: var(--grey);
 }
 
 .main-navigation a:visited {
-  color: var(--main-font-color);
+  color: var(--grey);
 }
 
 .main-navigation a:hover,
@@ -76,7 +76,7 @@ body {
 .contact-information {
   font-weight: 400;
   text-decoration: none;
-  color: var(--secondary-font-color);
+  color: var(--slate);
   letter-spacing: 0.02em;
   line-height: 150%;
 }
@@ -123,7 +123,7 @@ body {
 
 .order-button:hover {
   color: var(--iris);
-  background-color: var(--grey-background);
+  background-color: var(--cloud);
 }
 
 .features {
@@ -145,7 +145,7 @@ body {
 }
 .feature-description {
   line-height: 150%;
-  color: var(--secondary-font-color);
+  color: var(--slate);
   letter-spacing: 0.02em;
   width: 264px;
   margin-block: 0px;
@@ -173,7 +173,7 @@ body {
 }
 
 .team-members {
-  background-color: var(--grey-background);
+  background-color: var(--cloud);
   padding-block: 120px;
   font-size: 0px;
 }
@@ -202,7 +202,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--secondary-font-color);
+  color: var(--slate);
   margin-block: 8px;
   text-align: center;
 }
@@ -221,7 +221,7 @@ body {
 }
 
 footer {
-  background-color: var(--main-font-color);
+  background-color: var(--grey);
   padding-bottom: 100px;
   padding-top: 101.5px;
 }
@@ -241,7 +241,7 @@ footer {
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
-  color: var(--grey-background);
+  color: var(--cloud);
   text-decoration: none;
   font-size: 18px;
   line-height: 116.667%;
@@ -252,7 +252,7 @@ footer {
 }
 
 .footer-slogan {
-  color: var(--grey-background);
+  color: var(--cloud);
   line-height: 150%;
   margin-block: 0px;
   letter-spacing: 0.02em;
@@ -286,7 +286,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  background: var(--grey-background);
+  background: var(--cloud);
   cursor: pointer;
   border-width: 0px;
   border-radius: 4px;
@@ -333,7 +333,7 @@ figure img {
   letter-spacing: 0.02em;
 }
 .project-category {
-  color: var(--secondary-font-color);
+  color: var(--slate);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
