@@ -94,6 +94,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding-block: 188px;
+  border: 1px solid #000;
 }
 .slogan {
   color: var(--white);
