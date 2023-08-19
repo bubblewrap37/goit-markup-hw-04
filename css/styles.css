@@ -122,24 +122,29 @@ body {
   background-color: var(--grey-background);
 }
 
-.articles {
+.features {
   display: flex;
   justify-content: space-between;
 }
 
-.article-title {
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feature-title {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 120%;
   font-weight: 500;
 }
-.article-description {
+.feature-description {
   line-height: 150%;
   color: var(--secondary-font-color);
   letter-spacing: 0.02em;
   width: 264px;
-  margin-top: 8px;
-  margin-bottom: 0px;
+  margin-block: 0px;
 }
 
 .section-title {
@@ -190,9 +195,15 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--secondary-font-color);
-  margin-top: 8px;
-  margin-bottom: 32px;
+  margin-block: 8px;
   text-align: center;
+}
+
+.team-member-socials {
+  display: flex;
+  gap: 24px;
+  padding-inline: 16px;
+  padding-bottom: 32px;
 }
 
 footer {
