@@ -89,8 +89,10 @@ body {
   color: var(--iris);
 }
 .container-slogan {
+  background-color: lightgray;
   background-image: url(/images/background-img-1.jpg);
-  background: var(--main-font-color);
+  background-repeat: no-repeat;
+  background-position: center;
   padding-block: 188px;
 }
 .slogan {
