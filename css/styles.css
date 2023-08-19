@@ -89,6 +89,7 @@ body {
   color: var(--iris);
 }
 .container-slogan {
+  background-image: url(/images/background-img-1.jpg);
   background: var(--main-font-color);
   padding-block: 188px;
 }
