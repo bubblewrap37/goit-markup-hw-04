@@ -269,6 +269,7 @@ footer {
 .footer-socials {
   display: flex;
   gap: 16px;
+  padding-inline: 0px;
 }
 
 .section-portfolio {
