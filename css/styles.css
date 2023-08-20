@@ -92,7 +92,7 @@ body {
 }
 .container-slogan {
   background-color: lightgray;
-  background-image: url(/images/background-img-1.jpg);
+  background-image: url(../images/background-img-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding-block: 188px;
