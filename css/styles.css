@@ -14,6 +14,8 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--grey);
+  width: 1440px;
+  margin: auto;
 }
 .container {
   width: 1158px;
@@ -94,7 +96,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding-block: 188px;
-  border: 1px solid #000;
 }
 .slogan {
   color: var(--white);
