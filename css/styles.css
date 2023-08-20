@@ -220,6 +220,9 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  list-style-type: none;
+  padding-inline: 0px;
+  margin-block: 0px;
 }
 
 footer {
@@ -271,6 +274,7 @@ footer {
   display: flex;
   gap: 16px;
   padding-inline: 0px;
+  margin-block: 0px;
 }
 
 .section-portfolio {
