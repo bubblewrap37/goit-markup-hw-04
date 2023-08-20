@@ -7,6 +7,7 @@
   --cloud: #f4f4fd;
   --white-faded: rgba(255, 255, 255, 0.6);
   --cornflower: #e7e9fc;
+  --green: #31d0aa;
 }
 header {
   border-bottom: 1px solid var(--cornflower);
@@ -342,4 +343,11 @@ figure img {
   margin-top: 8px;
   margin-bottom: 0px;
   letter-spacing: 0.02em;
+}
+
+.footer-socials li:hover,
+.footer-socials li:focus,
+.team-member-socials li:hover,
+.team-member-socials li:focus {
+  --color3: var(--green);
 }
