@@ -350,8 +350,11 @@ figure img {
 }
 
 .footer-socials li:hover,
-.footer-socials li:focus,
+.footer-socials li:focus {
+  --color3: var(--green);
+}
+
 .team-member-socials li:hover,
 .team-member-socials li:focus {
-  --color3: var(--green);
+  --color3: var(--ocean);
 }
