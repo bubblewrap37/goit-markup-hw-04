@@ -363,3 +363,11 @@ figure img {
 .team-member-socials li:focus {
   --color3: var(--ocean);
 }
+.customers-logos li {
+  border-radius: 4px;
+  border: 1px solid var(--color4, #8e8f99);
+}
+.customers-logos li:hover,
+.customers-logos li:focus {
+  --color4: var(--ocean);
+}
